@@ -2,3 +2,18 @@
 
 nm
 jh
+#include <stdio.h>
+int main()  {
+
+ float person,my_turn,x;
+
+ printf("enter the number which person you are in the line");
+ scanf("%f",&person);
+
+ x=person/8;
+ my_turn=ceil(x);
+
+ printf("my turn number is %.0f",my_turn);
+
+  return 0;
+}
