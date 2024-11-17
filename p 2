@@ -1,3 +1,14 @@
-fv
-as
-br
+#include<stdio.h>
+int main() {
+ int age;
+ scanf("%d",&age);
+ if (age>=18) {
+        printf("Voter");
+ }
+else{
+    printf("Not voter");
+}
+
+ return 0;
+
+}
